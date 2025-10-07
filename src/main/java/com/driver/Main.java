@@ -4,7 +4,7 @@ public class Main
 {
 	 class A 
 	 {
-	   public String meth()
+	   public static String meth()
 	    {
 	       return "invoking method from class A" ;   	
 	    }	 
@@ -12,7 +12,7 @@ public class Main
 	class B extends  A
 	{  
 		//@override
-		public String meth()
+		public static String meth()
 		{
 			return "method is overridden in class B";
 		}
@@ -22,10 +22,10 @@ public class Main
 	public static void main(String [] args)
 	{
 		B object=new B();
-	       meth();
+	       object.meth();
 	       
 	       B object1=new B();
-	       meth();
+	       object1.meth();
 	}
 	
 	
