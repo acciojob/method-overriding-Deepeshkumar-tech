@@ -4,15 +4,15 @@ public class Main
 {
 	 class A 
 	 {
-	   public string meth()
+	   public String meth()
 	    {
-	       return " invoking method from class A" ;   	
+	       return "invoking method from class A" ;   	
 	    }	 
 	 }
 	class B extends  A
 	{  
 		//@override
-		public string meth()
+		public String meth()
 		{
 			return "method is overridden in class B";
 		}
