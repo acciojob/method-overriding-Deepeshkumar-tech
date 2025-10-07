@@ -22,10 +22,10 @@ public class Main
 	public static void main(String [] args)
 	{
 		B object=new B();
-	       object.meth();
+	       meth();
 	       
 	       B object1=new B();
-	       object1.meth();
+	       meth();
 	}
 	
 	
