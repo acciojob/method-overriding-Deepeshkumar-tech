@@ -9,7 +9,7 @@ public class Main
 	       return "invoking method from class A" ;   	
 	    }	 
 	 }
-	static class B extends  A
+	 private static class B extends  A
 	{  
 		//@override
 		public String meth()
