@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main 
 {
-	static class A 
+   private static class A
 	 {
 	   public  String meth()
 	    {
